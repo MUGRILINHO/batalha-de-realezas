@@ -1,0 +1,97 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-dourado: #daa520;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: #4d4dff;
+    --vermelho: #ff2800;
+    --verde-radiante:  #006400;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("img/clashrisada.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 4em;
+    align-items: center;
+    text-align:center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    background-color: var(--botao-dourado);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+    border-radius: 2em;
+}
+
+.botao_secundario {
+    background-color: var(--botao-dourado);
+}
+
+.container__aviso {
+    font-size: 25px;
+    color: var(--fonte-principal);
+}
+
+.container__titulo {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--fonte-principal);
+}
+
+.container__imagem {
+    margin: 1em;
+    height: 35vh;
+}
+
+container__caixa {
+    margin: 0 3em;
+}
+
+.secundario__imagem{
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 6em;
+}
+
+.corredor__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--vermelho);
+    margin-bottom: 0.1em;
+}
+
+.corredor__texto {
+    color: var(--branco-principal);
+}
+
+.megacavaleiro__imagem{
+    display: inline-block;
+    margin-top: 1em;
+}
